@@ -18,6 +18,9 @@ export PS1='\[\e[32m\]\u\[\e[33m\]@\[\e[34m\]i.grekov:\[\e[0m\] '
 
 Запись можно открыть командой `asciinema play monitor.cast`.
 
+У виртуального сетевого адаптера `ethtool` показывает `Speed: Unknown!`.
+Скорость передачи в КБ/с видна в выводе `sar -n DEV`.
+
 В выводе curl шесть полей: время запуска, HTTP-код, `time_connect`,
 `time_appconnect`, `time_starttransfer` и `time_total`.
 
